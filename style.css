@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+details {
+  width: 200px;
+  background: black;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 4px;
+}
+summary {
+  font-size: 16px;
+}
+
+details[open] summary {
+  margin-bottom: 10px;
+}
